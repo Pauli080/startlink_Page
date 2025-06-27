@@ -163,11 +163,24 @@ img {
 }
 
 .high a {
+    display: flex;
     font-size: 0.6rem;
     font-weight: 700;
     padding: 1rem 0rem;
     color: white;
     text-decoration: none;
+   
+}
+
+.watch-now {
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+}
+
+.watch {
+    width: 7%;
+    margin-left: 10px;
 }
 
 .residential-roam {
@@ -471,7 +484,7 @@ img {
 }
 
 .trial {
-    border: 2px 
+    border: 2px ;
 }
 
 .trial h2 {
@@ -913,6 +926,10 @@ img {
         padding-top: 5rem;
     }
 
+    #country {
+        height: 140vh;
+    }
+
     .high {
         width: 100vw;
     }
@@ -961,4 +978,189 @@ img {
         font-weight: 600;
     }
 
+    .businesses-two {
+        height: 80vh;
+        padding: 0rem 1rem;
+    }
+    
+    .businesses-two h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        
+    }
+    
+    .businesses-two p {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .connectivity-two {
+        padding: 5rem 1rem 3rem 1rem;
+    }
+    
+    .connectivity-two h3 {
+       font-size: 1.5rem;
+    }
+    
+    .connectivity-two p {
+        font-size: 0.8rem;
+     }
+
+     .get {
+        padding: 0rem 2rem 0rem 1rem;
+        width: 100%;
+        height: 80vh;
+    }
+    
+    .steps h3 {
+        font-size: 1.3rem;
+        padding: 1rem 0rem;
+    }
+
+    .steps p {
+        font-size: 0.8rem;
+    }
+    
+    .steps {
+        padding: 2rem 0rem 1rem 0rem;
+    }
+    
+    .plug {
+        padding: 2rem 0rem 1rem 0rem;
+    }
+    
+    .plug h3 {
+        margin: 0.9rem 0rem;
+        font-size: 1.3rem;
+    }
+    
+    .requires {
+        padding: 1rem 1rem 1rem 0rem;
+    }
+
+    .requires p {
+        font-size: 0.8rem;
+    }
+    
+    .requires a {
+        font-size: 0.7rem;
+    }
+
+    .flexible-p {
+        width: 100%;
+        padding: 0rem 5rem 0rem 2rem;
+    }
+    
+    .flexible-p p {
+        font-size: 0.8rem;
+    }
+
+    .flexible-p h2 {
+        font-size: 1.4rem;
+    }
+    
+    .here {
+        font-weight: 700;
+    }
+
+    .engineered-two {
+        padding: 3rem 1rem 6rem 1rem;
+    }
+    
+    .engineered-two h3 {
+        font-size: 1.5rem;
+    }
+    
+    .engineered-two p {
+        font-size: 0.8rem;
+    }
+
+    .trial {
+        height: 90vh;
+    }
+
+    .trial h2 {
+        font-size: 1.7rem;
+     }
+     
+     .trial p {
+         font-size: 0.9rem;
+         padding: 0.5rem;
+      }
+     
+      .trial a {
+         font-size: 0.8rem;
+      }
+
+      .select {
+        width: 90vw;
+        margin-right: 0rem;
+    }
+
+    .order-now {
+        width: 90vw;
+        margin-top: 0.7rem;
+    }
+
+    .staying {
+        font-size: 0.7rem;
+    }
+
+    .input-email {
+        width: 68vw;
+    }
+
+    .foot-form p {
+        font-size: 0.7rem;
+    }
+
+    #starlink {
+        height: 12vh;
+        padding: 0rem 1rem;
+    }
+    
+    .star {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .hamburger {
+        width: fit-content;
+        height: 13px;
+    }
+
+    .watch-now {
+        width: 30vw;
+    }
+    
+    .watch {
+        width: 12%;
+    }
+    
+ }
+
+
+ @media (max-width: 376px) {
+    .order  {
+        padding: 0.7rem 1.5rem;
+    }
+    
+    .learn {
+        padding: 0.7rem 1.5rem;
+    }
+
+    
+ }
+
+
+ @media (max-width: 320px) {
+    .order  {
+        padding: 0.7rem 1rem;
+    }
+    
+    .learn {
+        padding: 0.7rem 1rem;
+    }
+
+    
  }

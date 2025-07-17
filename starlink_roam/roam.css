@@ -1,0 +1,523 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    font-family: "Roboto", sans-serif;
+    background-size: 50%;
+    background-position: center;
+    
+}
+
+
+.residential {
+    text-decoration: none;
+}
+
+.starlink {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 2em 3rem;
+
+    background: rgba(255, 255, 255, 0.10);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.6px);
+    -webkit-backdrop-filter: blur(1.6px);
+}
+
+.starlink a {
+    color: white;
+}
+
+.star {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.starlink-one {
+    display: flex;
+}
+
+.roam {
+    padding: 0rem 2rem;
+}
+
+.roam a {
+    padding: 0rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+.hamburger {
+    width: 5rem;
+    height: 15px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    /* height: 50vh; */
+}
+
+
+.country-image {
+    z-index: -1;
+    position: absolute;
+    transform: scale(1);
+    top: 0;
+}
+
+.high {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 90vw; */
+    /* border: 10px solid red; */
+    margin: auto 0;
+}
+
+#country {
+    /* height: 100vh; */
+    background: linear-gradient(180deg, transparent 50%, #080808) no-repeat;
+    object-fit: cover;
+    overflow: hidden;
+   
+}
+
+.starlink-two a {
+   padding: 0rem 0.3rem;
+   font-weight: 800;
+   font-size: 0.8rem;
+}
+
+.business {
+    text-decoration: none;
+}
+
+.speed-internet {
+    display: flex; 
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 7rem;
+    padding-bottom: 4em;
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.speed-internet-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, transparent 50%, #080808) no-repeat;
+}
+
+.high h2 {
+    font-size: 4rem;
+    color: white;
+    padding: 0.5rem 0rem;
+}
+
+.high p {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 5em;
+}
+
+.speeds {
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.high a {
+    display: flex;
+    font-size: 0.6rem;
+    font-weight: 700;
+    padding: 1rem 0rem;
+    color: white;
+    text-decoration: none;
+   
+}
+
+.trial-high {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    padding: 9em 0em 0em 0em;
+}
+
+
+.service-specifications {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    justify-content: space-between;
+    height: 17vh;
+    width: 100%;
+    padding: 0rem 1rem;
+    color: white;
+    background-color: rgba(33, 33, 33, .8);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.10);
+    backdrop-filter: blur(1.6px);
+    -webkit-backdrop-filter: blur(1.6px);
+} 
+
+.service-specifications a {
+    text-decoration: none;
+}
+
+.faqs {
+    display: flex;
+    align-items: center;
+}
+
+.faqs-faqs a {
+  color: white;
+  margin: 0rem 1rem;
+}
+
+.stream-order {
+    color: black;
+    background: white;
+    text-decoration: none;
+    padding: 0.6rem 0.9rem;
+    border: 1px solid;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-left: 0.5rem;
+}
+
+#remote-locations {
+    display:flex;
+    position: relative;
+    flex-direction: column;
+    /* height: 120vh; */
+    padding-bottom: 30em;
+    align-items: flex-end;
+    /* background: url(./images-roam/roam_a_feature1_d-1.jpg); */
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.location-image {
+    position: absolute;
+    z-index: -1;
+    position: absolute;
+    transform: scale();
+    top: 0;
+}
+
+.remote-locations-pp {
+    color: white;
+    width: 41%;
+    padding-top: 7rem;
+    padding-right: 1rem;
+}
+
+.remote-locations-pp h2 {
+    font-size: 2.3rem; 
+}
+
+.remote-locations-pp p {
+    padding: 1rem 0rem;
+    line-height: 1.3;
+}
+
+#pay-as-you-go {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background: #080808;
+}
+
+.pay-as-you-go-pp {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    border: 2px solid red;
+    width: 60%;
+    padding: 9rem 0rem;
+}
+
+.pay-as-you-go-pp h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 1rem 0rem;
+}
+
+.pay-as-you-go-pp p {
+    font-size: 1.4rem;
+}
+
+
+#the-water {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    background: #080808;
+    /* height: 110vh; */
+ 
+ }
+ 
+ .the-water-image {
+    width: 50%;
+ }
+ 
+ .the-water-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 55%;
+    padding: 0rem 5rem 0rem 7rem;
+ }
+ 
+ .the-water-p h2 {
+    font-size: 2.5rem;
+    padding: 0.5rem 0rem;
+    line-height: 1.5;
+ }
+
+ .the-water-p p {
+    font-size: 0.9rem;
+    padding: 0.5rem 0rem;
+    line-height: 1.5;
+ }
+
+ .maritime {
+    color: white;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.7rem 1rem;
+    text-decoration: none;
+    border: 1px solid;
+    width: fit-content;
+ }
+
+.online-two {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#starlink-in-motion {
+    display:flex;
+    position: relative;
+    flex-direction: column;
+    height: 120vh;
+    /* align-items: flex-end; */
+    /* background: url(./images-roam/roam_b_feature2_d-2.jpg); */
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.starlink-in-motio-image {
+    position: absolute;
+    z-index: -1;
+    position: absolute;
+    transform: scale();
+    top: 0;
+}
+
+.starlink-in-motion-pp {
+    color: white;
+    width: 41%;
+    padding: 10rem 0rem 0rem 3rem;
+}
+
+.starlink-in-motion-pp h2 {
+    font-size: 2.3rem; 
+}
+
+.starlink-in-motion-pp p {
+    padding: 1rem 0rem;
+    font-size: 0.9rem;
+    line-height: 1.3;
+}
+
+.learn {
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.weather {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    /* height: 140vh; */
+    /* background: url(./images-roam/roam_a_weather_d-5.jpg); */
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.weather-image {
+    position: absolute;
+    z-index: -1;
+    position: absolute;
+    transform: scale();
+    top: 0;
+}
+
+.weather-pp {
+    color: white;
+    width: 41%;
+    padding: 7rem 0rem 35em 3em;
+    
+}
+
+.weather-pp h2 {
+    font-size: 2.3rem; 
+}
+
+.weather-pp p {
+    padding: 1rem 0rem;
+    line-height: 1.3;
+    font-weight: 300;
+}
+
+@media (max-width: 1025px) {
+    .pay-as-you-go-pp {
+        width: 80%;
+    }
+
+    .starlink-in-motion-pp {
+        width: 55%;
+    }
+
+    .the-water-p {
+        padding: 0rem 1rem 0rem 1rem;
+    }
+
+    .the-water-p h2 {
+        font-size: 2rem;
+        padding: 0.5rem 0rem;
+        line-height: 1.5;
+    }
+
+    .weather-pp {
+        width: 60%;
+    }
+
+    
+}
+
+
+@media (max-width: 768px) {
+
+
+    .country-image {
+        z-index: -1;
+        position: absolute;
+        transform: scale(1.4);
+        top: 0;
+    }
+
+    .speed-internet {
+        margin-top: 0;
+        padding-top: 6rem;
+        padding-bottom: 1em;
+       
+    }
+
+    .trial-high {
+        padding: 5em 0em 0em 0em;
+    }
+
+    .high {
+        /* width: 100vw; */
+
+        /* border: 10px solid red; */
+        margin: auto 0;
+    }
+
+    .high p {
+        font-size: 1.5rem;
+        color: white;
+        margin-bottom: 1em;
+    }
+
+    .service-specifications {
+        display: none;
+    }
+
+    #remote-locations {
+        height: 160vh;
+        background: url(./images-roam/roam_a_feature1_m-small.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .remote-locations-pp {
+        width: 99%;
+        padding-top: 5rem;
+    }
+
+    .remote-locations-pp p {
+        font-size: 0.9em;
+        font-weight: 300;
+    }
+
+    .pay-as-you-go-pp {
+        width: 90%;
+        padding: 7rem 0rem;
+    }
+
+    #starlink-in-motion {
+        height: 150vh;
+        background: url(./images-roam/roam_b_feature2_m-sm--2.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .starlink-in-motion-pp {
+        width: 99%;
+        padding: 5rem 0rem 0rem 3rem;
+    }
+
+    #the-water {
+        flex-direction: column-reverse;
+        width: 100%;
+        height: fit-content;
+     
+     }
+     
+     .the-water-image {
+        width: 100%;
+        padding: 0rem 0rem;
+     }
+     
+     .the-water-p {
+        font-size: 0.9rem;
+        width: 100%;
+        padding: 0rem 5rem 0rem 2rem;
+     }
+
+     .weather-pp {
+        width: 99%;
+    }
+
+}

@@ -1,0 +1,929 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    background-image: url(../image/home_illustriation1_d-11.jpg);
+    font-family: "Roboto", sans-serif;
+    background-size: 50%;
+    background-position: center;
+    
+}
+
+header {
+    position: fixed;
+}
+
+
+.month {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 6vh;
+    background: white;
+}
+
+.month a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#starlink {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    height: 17vh;
+    width: 100%;
+    padding: 0rem 3rem;
+
+    background: rgba(255, 255, 255, 0.10);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.6px);
+    -webkit-backdrop-filter: blur(1.6px);
+}
+
+#starlink a {
+    color: white;
+}
+
+.star {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.starlink-one {
+    display: flex;
+}
+
+.roam {
+    padding: 0rem 2rem;
+}
+
+.roam a {
+    padding: 0rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+.roam-roam {
+    text-decoration: none;
+}
+
+.hamburger {
+    width: 5rem;
+    height: 15px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    /* height: 50vh; */
+}
+
+#country {
+    height: 120vh;
+    background: linear-gradient(180deg, transparent 50%, #080808) no-repeat;
+    object-fit: cover;
+    overflow: hidden;
+   
+}
+
+.starlink-two a {
+   padding: 0rem 0.3rem;
+   font-weight: 800;
+   font-size: 0.8rem;
+}
+
+.business {
+    text-decoration: none;
+}
+
+.high {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 57vw;
+   
+}
+
+.speed-internet {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    margin-top: 0;
+    padding-top: 7rem;
+    background: url(./image/residential_c_hero_d-first-back.jpg);
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.speed-internet-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+     background: linear-gradient(180deg, transparent 50%, #080808) no-repeat;
+}
+
+.high h2 {
+    font-size: 4rem;
+    color: white;
+    padding: 0.5rem 0rem;
+}
+
+.high p {
+    font-size: 1.5rem;
+    /* width: vw; */
+    color: white;
+}
+
+.speeds {
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.high a {
+    display: flex;
+    font-size: 0.6rem;
+    font-weight: 700;
+    padding: 1rem 0rem;
+    color: white;
+    text-decoration: none;
+   
+}
+
+.watch-now {
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+}
+
+.watch {
+    width: 7%;
+    margin-left: 10px;
+}
+
+.stream {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.stream h2 {
+    font-size: 2.3rem;
+    padding: 2rem 0rem;
+}
+
+
+.residential-residential {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.6px);
+    -webkit-backdrop-filter: blur(1.6px);
+    border: 1px solid rgba(255, 255, 255, 0.51);
+    width: 23%;
+    padding: 2rem 0rem;
+}
+
+.residential-residential h3 {
+    font-size: 1.7rem;
+    padding: 1rem 0rem;
+}
+
+.mo {
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+}
+
+.mom {
+    color: rgba(255, 255, 255, 0.51);
+    padding: 3rem 0rem 2rem 0rem;
+}
+
+.view-order {
+    padding: 2rem;
+}
+
+.stream-view {
+    color: white;
+    background: #080808;
+    text-decoration: none;
+    padding: 0.6rem 0.9rem;
+    border: 1px solid;
+    font-size: 0.8rem;
+    border-radius: 7px;
+    font-weight: 600;
+}
+
+
+
+
+.service-specifications {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    justify-content: space-between;
+    height: 17vh;
+    width: 100%;
+    padding: 0rem 1rem;
+    color: white;
+    background-color: rgba(33, 33, 33, .8);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.10);
+    backdrop-filter: blur(1.6px);
+    -webkit-backdrop-filter: blur(1.6px);
+} 
+
+.service-specifications a {
+    text-decoration: none;
+}
+
+.faqs {
+    display: flex;
+    align-items: center;
+}
+
+.faqs-faqs a {
+  color: white;
+  margin: 0rem 1rem;
+}
+
+.stream-order {
+    color: black;
+    background: white;
+    text-decoration: none;
+    padding: 0.6rem 0.9rem;
+    border: 1px solid;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 7px;
+    margin-left: 0.5rem;
+}
+
+.starlink-mini {
+    display:flex;
+    flex-direction: column;
+    height: 120vh;
+    align-items: flex-end;
+    background: url(./image/residential_c_feature5_d-1.jpg);
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.starlink-mini-pp {
+    color: white;
+    width: 41%;
+    padding-top: 7rem;
+    padding-right: 1rem;
+}
+
+.starlink-mini-pp a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.starlink-mini-pp h3 {
+    font-size: 2.3rem; 
+}
+
+.starlink-mini-pp p {
+    padding: 1rem 0rem;
+    line-height: 1.3;
+}
+
+.internet {
+    height: 120vh;
+    background: url(./image/residential_b_feature1_d-2.jpg);
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 3rem;
+}
+
+.internet-pp h3 {
+    font-size: 2.3rem; 
+}
+
+.internet-pp {
+    color: white;
+    width: 41%;
+    padding-top: 7rem;
+    padding-right: 1rem;
+}
+
+.internet-pp p {
+    padding: 1rem 0rem;
+    line-height: 1.3;
+}
+
+.online-two {
+    display: flex;
+    color: white;
+    margin: 10rem 0rem;
+}
+
+.get-tow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    padding: 0rem 0rem;
+    width: 50%;
+    height: 100vh;
+}
+
+.get {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    padding: 0rem 0rem 0rem 4rem;
+    width: 50%;
+    height: 100vh;
+}
+
+.steps h3 {
+    font-size: 2.3rem;
+    padding: 0.5rem 0rem;
+}
+
+.steps {
+    padding: 2rem 0rem 1rem 2rem;
+    width: 100%;
+}
+
+.plug {
+    padding: 2rem 0rem 1rem 2rem;
+    width: 100%;
+}
+
+.plug h3 {
+    padding: 0.5rem;
+    margin: 0.7rem 0rem;
+    font-size: 1.5rem;
+    border: 1px solid;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+.requires {
+    padding: 2rem 10rem 1rem 2rem;
+    line-height: 1.5;
+}
+
+.requires a {
+    padding: 2rem 1rem 1rem 0rem;
+    line-height: 1.5;
+    font-size: 0.8rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+}
+
+.download {
+    width: 7rem;
+    position: absolute;
+}
+
+#flexible {
+    display: flex;
+    width: 100%;
+    height: 110vh;
+    margin: 7rem 0rem;
+
+}
+
+.flexible-image {
+    width: 50%;
+}
+
+.flexible-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 50%;
+    padding: 0rem 9rem 0rem 3rem;
+}
+
+.flexible-p h2 {
+    font-size: 2.2rem;
+    padding: 0.5rem 0rem;
+    line-height: 1.5;
+}
+
+.here {
+    font-weight: 800;
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 140vh;
+    background: url(./image/residential_b_weather_d-5.jpg);
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.weather-pp {
+    color: white;
+    width: 41%;
+    padding-top: 7rem;
+    padding-right: 1rem;
+}
+
+.weather-pp h2 {
+    font-size: 2.3rem; 
+}
+
+.weather-pp p {
+    padding: 1rem 0rem;
+    line-height: 1.3;
+    font-weight: 300;
+}
+
+
+.kickstand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+    background: url(./image/residential_b_install_d-6.webp);
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    max-height: 1080px;
+    min-height: 800px;
+    max-width: 1420px;
+}
+
+.kickstand-image {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0rem 1rem;
+    width: 15%;
+}
+
+.kickstand-image-none {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0rem 1rem;
+    width: 15%;
+}
+
+.kickstand-image p {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.kickstand-image-none p {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.kickstand-image img {
+    height: 35vh;
+    margin-bottom: 1rem;
+    /* width: 247.25px; */
+}
+
+.kickstand-image-none img {
+    height: 35vh;
+    margin-bottom: 1rem;
+    /* width: 247.25px; */
+}
+
+.kickstand-cable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+}
+
+.kickstand-pp {
+    color: white;
+    width: 100%;
+    padding: 0rem 1.2rem;
+    margin-bottom: 10rem;
+}
+
+.kickstand-pp h2 {
+    font-size: 3rem;
+}
+
+.kickstand-pp p {
+    font-size: 1rem;
+    padding: 1rem 0rem;
+    
+}
+
+.kickstand-pp a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.accessories {
+    color: white;
+    padding: 3rem 1rem;
+}
+
+.accessories p {
+    color: rgb(95, 93, 93);
+}
+
+.accessories h3 {
+   
+    padding: 0.5rem 0rem;
+}
+
+.pipe-adapter-image {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0rem 0.5rem;
+    width: 20%;
+}
+
+.pipe-adapter-image-none {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0rem 0.5rem;
+    width: 20%;
+}
+
+.pipe-adapter-image p {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.pipe-adapter-image img {
+    height: 50vh;
+    margin-bottom: 1rem;
+    /* width: 247.25px; */
+}
+
+.pipe-adapter-image-none img {
+    height: 50vh;
+    margin-bottom: 1rem;
+    /* width: 247.25px; */
+}
+
+.pipe-adapter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+}
+
+
+@media (max-width: 1025px) {
+    .high {
+        width: 75vw;
+    }
+
+    .high p {
+        font-size: 1rem;
+    }
+
+    .stream h2 {
+        font-size: 2.1rem;
+        padding: 2rem 2rem;
+    }
+
+    .residential-residential {
+        width: 29%;
+    }
+    
+    .residential-residential h3 {
+        font-size: 1.6rem;
+    }
+
+    .residential-residential p {
+        font-size: 0.8rem;
+    }
+    
+    .mo {
+        font-size: 2.7rem;
+    }
+
+    .starlink-mini-pp {
+        width: 53%;
+        padding-right: 4rem;
+    }
+    
+    .starlink-mini-pp h3 {
+        font-size: 2.3rem; 
+    }
+    
+    .starlink-mini-pp p {
+        font-size: 0.9rem;
+    }
+    
+    .internet-pp h3 {
+        font-size: 2.3rem; 
+    }
+    
+    .internet-pp {
+        width: 55%;
+    }
+    
+    .internet-pp p {
+        font-weight: 300;
+    }
+
+    .get {
+        padding: 0;
+    }
+
+    .steps p {
+        font-size: 0.9rem;
+    }
+
+    .requires {
+        padding: 2rem 2rem 1rem 2rem;
+    }
+
+    #flexible {
+        height: 100vh;
+    }
+
+    .flexible-p {
+        padding: 0rem 1rem 0rem 3rem;
+    }
+
+    .weather-pp {
+        width: 54%;
+        padding-top: 8rem;
+    }
+
+   
+    
+}
+
+
+@media (max-width: 768px) {
+
+    .speed-internet {
+        background: url(./image/residential_c_hero_m-small-bg.webp);
+        background-size:cover ;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+    #starlink {
+        height: 12vh;
+    }
+
+    .personal {
+        display: none;
+    }
+
+    .business {
+        display: none;
+    }
+
+    .high {
+        width: 90vw;
+    }
+
+    .stream h2 {
+        font-size: 3rem;
+        padding: 2rem 2rem;
+    }
+    
+    
+    .residential-residential {
+        width: 70%;
+        padding: 2rem 0rem;
+    }
+
+    .starlink-mini {
+        background: url(./image/residential_c_feature5_m-small-1.jpg);
+        background-size:cover ;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .starlink-mini-pp {
+        width: 98%;
+        padding-top: 5rem;
+    }
+
+    .internet {
+        background: url(./image/residential_b_feature1_m-small-33.webp);
+        background-size:cover ;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-left: 3rem;
+    }
+
+    .internet {
+        padding-left: 1rem;
+    }
+
+    .internet-pp {
+        width: 90%;
+    }
+
+    .internet-pp p {
+       font-size: 0.9rem;
+    }
+
+    .weather {
+        background: url(./image/residential_b_weather_m-small-2.webp);
+        background-size:cover ;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .weather-pp {
+        width: 96%;
+    }
+
+    .kickstand-pp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pipe-adapter-image-none {
+        display: none;
+    }
+
+    .pipe-adapter-image {
+        display: flex;
+        width: 50%;
+    }
+
+    .pipe-adapter-image img {
+        height: 70vh;
+        margin-bottom: 1rem;
+        /* width: 247.25px; */
+    }
+
+    .kickstand-image-none {
+        display: none;
+    }
+
+    .kickstand-image {
+        width: 50%;
+    }
+
+    .kickstand-image img {
+        height: 60vh;
+        margin-bottom: 1rem;
+        /* width: 247.25px; */
+    }
+
+}
+
+@media (max-width:425px) {
+
+    #starlink{
+        padding: 0rem 1rem;
+    }
+
+    .roam a {
+        font-size: 0.4rem;
+    }
+
+
+    .high h2 {
+        font-size: 1.7rem;
+    }
+
+    .high p {
+        font-size: 0.9rem;
+    }
+
+    .speed-internet {
+       padding-top: 6rem;
+    }
+
+    .stream h2 {
+        font-size: 1.4rem;
+        padding: 2rem 2rem;
+    }
+
+    .service-specifications {
+        display: none;
+    }
+
+    .starlink-mini-pp {
+        width: 95%;
+        padding-right: 2rem;
+    }
+    
+    .starlink-mini-pp a {
+        font-size: 0.6rem;
+    }
+    
+    .starlink-mini-pp h3 {
+        font-size: 1.8rem; 
+    }
+    
+    .starlink-mini-pp p {
+        font-size: 0.8rem;
+    }
+
+    .internet-pp {
+        width: 95%;
+    }
+
+    .internet-pp h3 {
+        font-size: 1.5rem;
+    }
+
+    .internet-pp p {
+        font-size: 0.8rem;
+    }
+
+    .weather-pp h2 {
+        font-size: 1.4rem;
+    }
+
+    .weather-pp p {
+        font-size: 0.8rem;
+    }
+
+    .kickstand-pp h2 {
+        font-size: 1.5rem;
+    }
+
+    .kickstand-pp p {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .kickstand-pp a {
+        font-size: 0.7rem;
+        font-weight: 700;
+    }
+
+    .accessories {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .accessories h3 {
+        font-size: 1rem;
+    }
+
+    .accessories p {
+        font-size: 0.8rem;
+    }
+
+
+}
+
+
+@media (max-width:375px) {
+    .high {
+        width: 92vw;
+        text-align: center;
+    }
+}

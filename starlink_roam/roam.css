@@ -20,16 +20,16 @@ main {
 
 .starlink {
     display: flex;
-    position: absolute;
+    position: fixed;
     align-items: center;
     justify-content: space-between;
     width: 100vw;
     padding: 2em 3rem;
-
     background: rgba(255, 255, 255, 0.10);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(1.6px);
     -webkit-backdrop-filter: blur(1.6px);
+    z-index: 10;
 }
 
 .starlink a {
@@ -83,7 +83,7 @@ img {
     margin: auto 0;
 }
 
-#country {
+.country {
     /* height: 100vh; */
     background: linear-gradient(180deg, transparent 50%, #080808) no-repeat;
     object-fit: cover;
@@ -104,7 +104,7 @@ img {
 .speed-internet {
     display: flex; 
     flex-direction: column;
-    position: relative;
+    /* position: relative; */
     align-items: center;
     margin-top: 0;
     padding-top: 7rem;
@@ -202,7 +202,7 @@ img {
     margin-left: 0.5rem;
 }
 
-#remote-locations {
+.remote-locations {
     display:flex;
     position: relative;
     flex-direction: column;
@@ -239,7 +239,7 @@ img {
     line-height: 1.3;
 }
 
-#pay-as-you-go {
+.pay-as-you-go {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -253,7 +253,7 @@ img {
     flex-direction: column;
     color: white;
     text-align: center;
-    border: 2px solid red;
+    /* border: 2px solid black; */
     width: 60%;
     padding: 9rem 0rem;
 }
@@ -269,7 +269,7 @@ img {
 }
 
 
-#the-water {
+.the-water {
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
@@ -319,12 +319,11 @@ img {
     flex-direction: row-reverse;
 }
 
-#starlink-in-motion {
+.starlink-in-motion {
     display:flex;
     position: relative;
     flex-direction: column;
     height: 120vh;
-    /* align-items: flex-end; */
     /* background: url(./images-roam/roam_b_feature2_d-2.jpg); */
     background-size:cover ;
     background-position: center;
@@ -364,8 +363,6 @@ img {
     position: relative;
     display: flex;
     flex-direction: column;
-    /* align-items: flex-end; */
-    /* height: 140vh; */
     /* background: url(./images-roam/roam_a_weather_d-5.jpg); */
     background-size:cover ;
     background-position: center;
@@ -426,11 +423,23 @@ img {
 
 @media (max-width: 768px) {
 
+    .starlink {
+        padding: 0.8em 1em;
+    }
+
+    .personal {
+        display: none;
+    }
+
+    .business {
+        display: none;
+    }
+
 
     .country-image {
         z-index: -1;
         position: absolute;
-        transform: scale(1.4);
+        /* transform: scale(1.7); */
         top: 0;
     }
 
@@ -462,12 +471,8 @@ img {
         display: none;
     }
 
-    #remote-locations {
-        height: 160vh;
-        background: url(./images-roam/roam_a_feature1_m-small.webp);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+    .remote-locations {
+        padding-bottom: 25em;
     }
 
     .remote-locations-pp {
@@ -482,23 +487,23 @@ img {
 
     .pay-as-you-go-pp {
         width: 90%;
-        padding: 7rem 0rem;
+        padding: 7rem 1rem;
     }
 
-    #starlink-in-motion {
+    /* #starlink-in-motion {
         height: 150vh;
         background: url(./images-roam/roam_b_feature2_m-sm--2.webp);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-    }
+    } */
 
     .starlink-in-motion-pp {
         width: 99%;
         padding: 5rem 0rem 0rem 3rem;
     }
 
-    #the-water {
+    .the-water {
         flex-direction: column-reverse;
         width: 100%;
         height: fit-content;
@@ -518,6 +523,69 @@ img {
 
      .weather-pp {
         width: 99%;
+        padding: 5rem 0rem 30em 1em;
     }
 
 }
+
+
+@media (max-width: 425px ) {
+    .high h2 {
+       font-size: 1.5em;
+       font-weight: 900;
+   }
+ 
+   .high p {
+    font-size: 1em;
+    
+ }
+
+ .trial-high {
+    padding: 7em 0em 1em 0em;
+}
+
+.remote-locations-pp {
+    width: 99%;
+    padding-left: 1em;
+    padding-top: 5rem;
+}
+
+.remote-locations-pp h2 {
+    font-size: 1.5em;
+}
+
+.pay-as-you-go-pp {
+    padding: 7rem 0rem;
+}
+
+.pay-as-you-go-pp h2 {
+    font-size: 1.5em;
+}
+
+.pay-as-you-go-pp p {
+    font-size: 1em;
+    padding: 1rem 0rem;
+}
+
+.starlink-in-motion-pp {
+    padding: 5rem 0rem 0rem 1em;
+}
+
+.starlink-in-motion-pp p {
+    font-size: 1em;
+}
+
+.starlink-in-motion-pp h2 {
+    font-size: 1.5em;
+}
+
+.weather-pp h2 {
+   font-size: 1.5em;
+}
+
+.weather-pp p {
+    font-size: 0.8em;
+ }
+
+
+  }

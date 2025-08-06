@@ -31,7 +31,7 @@ header {
 
 
 
-#starlink {
+.starlink {
    display: flex;
    position: fixed;
    align-items: center;
@@ -43,9 +43,10 @@ header {
    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
    backdrop-filter: blur(1.6px);
    -webkit-backdrop-filter: blur(1.6px);
+   z-index: 99;
 }
 
-#starlink a {
+.starlink a {
    color: white;
 }
 
@@ -66,7 +67,6 @@ header {
    padding: 0rem 1rem;
    font-size: 0.9rem;
    font-weight: 800;
-   /* text-decoration: none; */
 }
 
 .hamburger {
@@ -158,10 +158,10 @@ img {
    position: absolute;
 }
 
-#flexible {
+.flexible {
    display: flex;
    width: 100%;
-   height: 110vh;
+   /* height: 110vh; */
 
 }
 
@@ -467,13 +467,17 @@ input {
 
  @media (max-width: 768px) {
 
+   .hamburger {
+      width: 3em;
+  }
+
    .online-two {
       display: flex;
       flex-direction: column;
   }
 
   .get-tow {
-      padding: 0rem 2rem;
+      padding: 0rem 0rem;
       width: 100%;
       height: 120vh;
   }
@@ -484,7 +488,7 @@ input {
       height: 90vh;
   }
 
-  #flexible {
+  .flexible {
    flex-direction: column-reverse;
    width: 100%;
    height: fit-content;
@@ -607,6 +611,16 @@ input {
 
 
  @media (max-width: 426px) {
+
+   .star {
+      font-size: 0.9em;
+   }
+
+   .roam a {
+      font-size: 0.6rem;
+   }
+
+
    .get {
       padding: 0rem 2rem 0rem 1rem;
       width: 100%;
@@ -653,7 +667,7 @@ input {
       font-size: 0.7rem;
   }
 
-  #flexible {
+  .flexible {
    margin-bottom: 3rem;
 }
 
@@ -750,3 +764,6 @@ input {
 
 
  }
+
+
+ 

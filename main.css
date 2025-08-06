@@ -17,22 +17,17 @@ main {
     background-position: center;
 }
 
+.residenti {
+    text-decoration: none;
+}
+
+.roam-roam {
+    text-decoration: none;
+}
 
 
-#country {
-    /* display: flex; 
-    flex-direction: column;
-    align-items: center;
+.country {
     height: 120vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-top: 8rem; */
-
-    height: 120vh;
-    
-    
-
     background: linear-gradient(180deg, transparent 50%, #080808) no-repeat;
     object-fit: cover;
     overflow: hidden;
@@ -175,9 +170,9 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    /* height: 80vh; */
     color: white;
-    padding: 0rem 6.5rem;
+    padding: 13rem 6.5rem;
 }
 
 .businesses-two h2 {
@@ -196,7 +191,7 @@ main {
     font-weight: bolder;
 }
 
-#connectivity {
+.connectivity {
     height: 130vh;
     width: 100%;
     color: white;
@@ -225,17 +220,8 @@ main {
  }
 
 
-/* img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-} */
 
-
-
-
-
-
-#engineered {
+.engineered {
     height: 120vh;
     width: 100%;
     color: white;
@@ -378,9 +364,9 @@ main {
         width: 90vw;
     }
 
-    #starlink {
+    /* .starlink {
         padding: 0rem 1rem;
-    }
+    } */
 
     .residential-roam {
         flex-direction: column;
@@ -388,7 +374,7 @@ main {
         padding: 3rem 0rem;
     }
 
-    #country {
+    .country {
         height: 180vh;
     }
     
@@ -424,7 +410,7 @@ main {
 
      
 
-    #engineered {
+    .engineered {
         height: 120vh;
         width: 100%;
         background: url(./image/home_feature3_m-4.jpg);
@@ -469,8 +455,8 @@ main {
         padding-top: 5rem;
     }
 
-    #country {
-        height: 140vh;
+    .country {
+        height: 130vh;
     }
 
     .high {
@@ -522,8 +508,9 @@ main {
     }
 
     .businesses-two {
-        height: 80vh;
-        padding: 0rem 1rem;
+        /* height: 80vh; */
+        text-align: center;
+        padding: 8rem 1rem;
     }
     
     .businesses-two h2 {
@@ -565,10 +552,10 @@ main {
 
     
 
-    #starlink {
+    /* .starlink {
         height: 12vh;
         padding: 0rem 1rem;
-    }
+    } */
     
     .star {
         font-size: 1rem;

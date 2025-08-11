@@ -36,9 +36,9 @@ header {
    position: fixed;
    align-items: center;
    justify-content: space-between;
-   height: 17vh;
+   /* height: 17vh; */
    width: 100%;
-   padding: 0rem 3rem;
+   padding: 2rem 3rem;
    background: rgba(255, 255, 255, 0.10);
    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
    backdrop-filter: blur(1.6px);
@@ -612,12 +612,16 @@ input {
 
  @media (max-width: 426px) {
 
+   .starlink {
+      padding: 1rem 1rem;
+   }
+
    .star {
       font-size: 0.9em;
    }
 
    .roam a {
-      font-size: 0.6rem;
+      font-size: 0.4rem;
    }
 
 

@@ -79,6 +79,7 @@ main {
     font-size: 4rem;
     color: white;
     padding: 0.5rem 0rem;
+    text-align: center;
 }
 
 .high p {
@@ -142,6 +143,11 @@ main {
     
 }
 
+.order-learn {
+    width: 100%;
+    
+}
+
 .order  {
     padding: 0.7rem 0.5rem;
     font-weight: 600;
@@ -178,12 +184,13 @@ main {
 .businesses-two h2 {
     font-size: 2.8rem;
     font-weight: 700;
-    
+    text-align: center;
 }
 
 .businesses-two p {
     padding: 1rem 0rem;
     font-size: 1.2rem;
+    text-align: center;
 }
 
 .learn-more {
@@ -222,12 +229,12 @@ main {
 
 
 .engineered {
-    height: 120vh;
+    /* height: 120vh; */
     width: 100%;
     color: white;
     background: url(./image/home_feature3_d-44.webp);
     background-position: center;
-    background-size: 100% ;
+    background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
 }
@@ -235,7 +242,7 @@ main {
 .engineered-two {
     display: flex;
     flex-direction: column;
-    padding: 10rem 1rem 6rem 2rem;
+    padding: 4em 1em 40em 2em;
     width: 45%;
 }
 
@@ -279,6 +286,10 @@ main {
         height: 100vh;
         width: 100%;
         padding-top: 4.5rem;
+    }
+
+    .country {
+        height: 140vh;
     }
     
     .high h2 {
@@ -324,14 +335,8 @@ main {
     }
 
     .businesses-two {
-        padding: 0rem 4rem;
+        padding: 7rem 4rem;
     }
-
-   
-    
-    
-
-    
 
     .engineered-two {
         width: 50%;
@@ -348,9 +353,9 @@ main {
 
  @media (max-width: 768px) {
 
-    .roam {
+    /* .roam {
         display: none;
-    }
+    } */
 
     .personal {
         display: none;
@@ -360,8 +365,16 @@ main {
         display: none;
     }
 
-    .high  {
+    /* .high  {
         width: 90vw;
+    } */
+
+    .high h2  {
+        font-size: 3em;
+    }
+
+    .high p  {
+        font-size: 1em;
     }
 
     /* .starlink {
@@ -375,7 +388,7 @@ main {
     }
 
     .country {
-        height: 180vh;
+        height: 175vh;
     }
     
     .residential {
@@ -384,15 +397,18 @@ main {
     }
     
     .order  {
-        padding: 0.7rem 9rem;
-        
+        /* padding: 0.7rem 9rem; */
+        width: 50%;
     }
     
     .learn {
-        padding: 0.7rem 8rem;
+        /* padding: 0.7rem 8rem; */
+        width: 50%;
     }
 
-    
+    .businesses-two h2 {
+        font-size: 2em;
+    }
 
     .connectivity-two {
         width: 100vw;
@@ -520,7 +536,7 @@ main {
     }
     
     .businesses-two p {
-        font-size: 1rem;
+        font-size: 0.8rem;
         font-weight: 300;
     }
 

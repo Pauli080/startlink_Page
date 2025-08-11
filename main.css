@@ -80,6 +80,7 @@ main {
     color: white;
     padding: 0.5rem 0rem;
     text-align: center;
+    /* font: 700 32px / 39px DIN_Regular, Arial, Verdana, sans-serif; */
 }
 
 .high p {
@@ -120,9 +121,9 @@ main {
 
     /* From https://css.glass */
     background: rgba(255, 255, 255, 0.050980392156862744);
-    border-radius: 16px;
+    border-radius: 8px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-     border: 1px solid rgba(255, 255, 255, 0.3);
+     border: 1px solid rgba(255, 255, 255, 0.3) ;
 }
 
 .residential h3 {
@@ -480,6 +481,7 @@ main {
     .high h2 {
        font-size: 1.7rem;
        line-height: 1;
+       font: 700 29px / 30px DIN_Regular, Arial, Verdana, sans-serif;
     }
 
     .high p {
@@ -534,8 +536,8 @@ main {
     }
     
     .businesses-two p {
-        font-size: 0.8rem;
-        font-weight: 300;
+        font-size: 0.8em;
+        font-weight: 200;
     }
 
     .connectivity-two {

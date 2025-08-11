@@ -558,7 +558,7 @@ input {
       align-items: center;
       flex-direction: column-reverse;
       width: 100vw;
-      height: 100vh;
+      /* height: 100vh; */
    }
 
    .staying {
@@ -720,7 +720,7 @@ input {
 
 
   .trial {
-   height: 90vh;
+   padding: 4em 0em 4em 0em;
 }
 
 .trial h2 {

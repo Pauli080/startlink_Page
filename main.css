@@ -144,25 +144,40 @@ main {
 
 .order-learn {
     width: 100%;
-    
+    display: flex;
 }
 
 .order  {
-    padding: 0.7rem 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
     font-weight: 600;
     color: black;
     background: white;
     border-radius: 5px;
     border: 1px solid;
+    padding: 0.8em 0em;
+}
+
+.order a {
+    color: black;
 }
 
 .learn {
-    padding: 0.7rem 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
     font-weight: 600;
-    color: black;
-    border: 1px solid;
-    color: white;
+    background:  transparent;
     border-radius: 5px;
+    border: 1px solid;
+    margin: 0em 0.5em;
+}
+
+.learn a {
+    color: white;
 }
 
 .starting {
@@ -231,7 +246,7 @@ main {
     /* height: 120vh; */
     width: 100%;
     color: white;
-    background: url(./image/home_feature3_d-44.webp);
+    background: url(./image/home_feature3_d-last-big.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -386,23 +401,30 @@ main {
         padding: 3rem 0rem;
     }
 
+    .speed-internet {
+        background: url(./image/home_c_hero_m-smallbg.webp);
+        background-size:cover ;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
     .country {
         height: 175vh;
     }
     
     .residential {
         width: 97%;
-        padding: 1rem 0rem 3rem 2rem;
+        padding: 1rem 0rem 3rem 1rem;
     }
     
     .order  {
+        width: 48%;
         /* padding: 0.7rem 9rem; */
-        width: 50%;
     }
     
     .learn {
+        width: 48%;
         /* padding: 0.7rem 8rem; */
-        width: 50%;
     }
 
     .businesses-two h2 {
@@ -426,19 +448,19 @@ main {
      
 
     .engineered {
-        height: 120vh;
+        /* height: 120vh; */
         width: 100%;
-        background: url(./image/home_feature3_m-4.jpg);
+        background: url(./image/home_feature3_m-last-small.jpg);
         background-position: center;
-        background-size: 100% ;
+        background-size: cover;
         background-repeat: no-repeat;
         object-fit: cover;
         margin-top: 4rem;
-       
+
     }
     
     .engineered-two {
-        padding: 3rem 1rem 6rem 2rem;
+        padding: 3em 1em 40em 2em;
         width: 100%;
     }
     
@@ -555,7 +577,7 @@ main {
      
 
     .engineered-two {
-        padding: 3rem 1rem 6rem 1rem;
+        padding: 3em 1em 30em 1em;
     }
     
     .engineered-two h3 {

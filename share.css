@@ -398,6 +398,7 @@ input {
 .input-email {
    color: white;
    background: #080808;
+   border: 2px solid white;
    border-right: none;
    border-left: none;
    border-top: none;
@@ -466,6 +467,10 @@ input {
  }
 
  @media (max-width: 768px) {
+
+   .starlink {
+      padding: 1em 2em;
+   }
 
    .hamburger {
       width: 3em;
@@ -752,6 +757,11 @@ input {
 
 .input-email {
    width: 68vw;
+}
+
+.sign-up {
+   font-size: 0.6em;
+   padding: 0rem 0.5rem;
 }
 
 .foot-form p {

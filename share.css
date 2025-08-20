@@ -43,7 +43,7 @@ header {
    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
    backdrop-filter: blur(1.6px);
    -webkit-backdrop-filter: blur(1.6px);
-   z-index: 99;
+   
 }
 
 .starlink a {
@@ -251,7 +251,7 @@ img {
 
 
  .address {
-    padding-top: 7rem;
+    padding-top: 5em;
      padding-bottom: 2rem;
      color: white;
  }

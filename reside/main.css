@@ -36,27 +36,6 @@ header {
     color: black;
 }
 
-
-
-.starlink {
-    display: flex;
-    position: fixed;
-    align-items: center;
-    justify-content: space-between;
-    height: 17vh;
-    width: 100%;
-    padding: 0rem 3rem;
-
-    background: rgba(255, 255, 255, 0.10);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(1.6px);
-    -webkit-backdrop-filter: blur(1.6px);
-}
-
-.starlink a {
-    color: white;
-}
-
 .star {
     text-decoration: none;
     font-size: 1.5rem;
@@ -120,7 +99,7 @@ img {
     display: flex; 
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
     margin-top: 0;
     padding-top: 7rem;
     background: url(./image/residential_c_hero_d-first-back.jpg);
@@ -286,7 +265,7 @@ img {
 .starlink-mini {
     display:flex;
     flex-direction: column;
-    height: 120vh;
+    /* height: 120vh; */
     align-items: flex-end;
     background: url(./image/residential_c_feature5_d-1.jpg);
     background-size:cover ;
@@ -299,6 +278,7 @@ img {
     width: 41%;
     padding-top: 7rem;
     padding-right: 1rem;
+    padding: 7em 0em 30em 0em;
 }
 
 .starlink-mini-pp a {
@@ -633,7 +613,7 @@ img {
     justify-content: center;
     width: 100%;
     color: white;
-    padding: 0em 0em 10em 0em;
+    padding: 0em 0em 5em 0em;
 }
 
 
@@ -755,7 +735,7 @@ img {
     
     
     .residential-residential {
-        width: 70%;
+        width: 60%;
         padding: 2rem 0rem;
     }
 

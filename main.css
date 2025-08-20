@@ -58,6 +58,7 @@ main {
     align-items: center;
     height: 90vh;
     margin-top: 0;
+    min-height: 90vh;
     /* margin-top: 2.5rem; */
     padding-top: 5rem;
     background: url(./image/home_c_hero_d-one.jpg);
@@ -193,6 +194,8 @@ main {
     /* height: 80vh; */
     color: white;
     padding: 13rem 6.5rem;
+    margin-top: 1em;
+    background: #080808;
 }
 
 .businesses-two h2 {
@@ -213,7 +216,6 @@ main {
 }
 
 .connectivity {
-    height: 130vh;
     width: 100%;
     color: white;
     background: url(./image/home_c_feature1_d-replace.jpg);
@@ -228,7 +230,7 @@ main {
     width: 33rem;
     flex-direction: column;
     align-items: start;
-    padding: 10rem 0rem 3rem 2rem;
+    padding: 10em 0rem 30em 2rem;
 }
 
 .connectivity-two h3 {
@@ -243,7 +245,6 @@ main {
 
 
 .engineered {
-    /* height: 120vh; */
     width: 100%;
     color: white;
     background: url(./image/home_feature3_d-last-big.jpg);
@@ -367,10 +368,7 @@ main {
 
  @media (max-width: 768px) {
 
-    /* .roam {
-        display: none;
-    } */
-
+   
     .personal {
         display: none;
     }
@@ -378,10 +376,6 @@ main {
     .business {
         display: none;
     }
-
-    /* .high  {
-        width: 90vw;
-    } */
 
     .high h2  {
         font-size: 3em;
@@ -391,10 +385,6 @@ main {
         font-size: 1em;
     }
 
-    /* .starlink {
-        padding: 0rem 1rem;
-    } */
-
     .residential-roam {
         flex-direction: column;
         width: 100%;
@@ -403,7 +393,7 @@ main {
 
     .speed-internet {
         background: url(./image/home_c_hero_m-smallbg.webp);
-        background-size:cover ;
+        background-size: cover ;
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -419,17 +409,23 @@ main {
     
     .order  {
         width: 48%;
-        /* padding: 0.7rem 9rem; */
     }
     
     .learn {
         width: 48%;
-        /* padding: 0.7rem 8rem; */
     }
 
     .businesses-two h2 {
         font-size: 2em;
     }
+
+    .connectivity {
+    background: url(./image/home_c_feature1_m-small-small.webp);
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
 
     .connectivity-two {
         width: 100vw;
@@ -448,7 +444,6 @@ main {
      
 
     .engineered {
-        /* height: 120vh; */
         width: 100%;
         background: url(./image/home_feature3_m-last-small.jpg);
         background-position: center;
@@ -529,11 +524,6 @@ main {
         font-size: 0.8rem;
     }
     
-    /* .residential a {
-        font-size: 0.5rem;
-        text-decoration: none;
-        
-    } */
     
     .order  {
         padding: 0.7rem 2.5rem;
@@ -547,7 +537,6 @@ main {
     }
 
     .businesses-two {
-        /* height: 80vh; */
         text-align: center;
         padding: 8rem 1rem;
     }
@@ -588,13 +577,6 @@ main {
     .engineered-two p {
         font-size: 0.8rem;
     }
-
-    
-
-    /* .starlink {
-        height: 12vh;
-        padding: 0rem 1rem;
-    } */
     
     .star {
         font-size: 1rem;
@@ -604,9 +586,7 @@ main {
     .hamburger {
         width: fit-content;
         height: 13px;
-    }
-
-   
+    }   
     
  }
 

@@ -283,6 +283,10 @@ img {
      box-sizing: border-box;
  }
 
+   button {
+     color: black;
+ }
+
  .trial {
    display: flex;
    flex-direction: column;
